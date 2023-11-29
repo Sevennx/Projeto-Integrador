@@ -1,0 +1,35 @@
+<!--PAGINA WEB, O HTML DE CADASTRAR A EDITORA-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Book</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js"></script>
+</head>
+<body>
+    <!--Nav-Bar-->
+    <div class="topnav">
+        <a href="index.php">Inicio</a>
+        <a href="cadastro_livro.php">Cadastrar Livros</a>
+        <a class="active" href="cadastraEditora.html">Cadastrar Editora</a>
+        <a href="editar_livro.php">Editar Livro</a>
+        <a href="listar_livros.php">Excluir Livro</a>
+      </div>
+          <div class="header">
+            <h1>Cadastrar Nova Editora 👥</h2>
+          </div>
+    <!--Formulario de Cadastro -->
+    <div class="FormularioCadastro">
+        <h2>Cadastro de Editora 📖</h2>
+        <form action="cadastra_editora.php" method="post">
+            <label for="editora">Editora:</label>
+            <input type="text" id="editora" name="nome_editora"><br><br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+
+
+</body>
+</html>
